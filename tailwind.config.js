@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./public/**/*.html", // if index.html or others are here
-    "./scripts/**/*.js", // if you use Tailwind classes in JS
-  ],
+  content: ["./index.html", "./public/**/*.html", "./scripts/**/*.js"],
   theme: {
     extend: {
       fontSize: {
